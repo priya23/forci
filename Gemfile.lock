@@ -37,6 +37,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
+    diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.7.0)
     hike (1.2.3)
@@ -78,6 +79,19 @@ GEM
     rake (11.2.2)
     rdoc (3.12.2)
       json (~> 1.4)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.1)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
     sass (3.4.22)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -104,6 +118,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.0)
+  rspec
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
